@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <section className=' relative px-4'>
-            <div className=' h-screen w-full absolute top-0 left-0'>
+        <section className=' relative px-10 lg:px-4'>
+            <div className=' h-[80vh] lg:h-screen w-full absolute top-0 left-0'>
                 <img src='/cover.avif' className=' h-full w-full object-cover' alt='cover photo'></img>
             </div>
 
             
-            <div className=' w-full h-screen flex flex-col pt-48 gap-8  max-w-6xl mx-auto'>
-                <p className='  text-start text-7xl text-black z-10 relative pr-12'>
+            <div className=' w-full h-[80vh] lg:h-screen flex flex-col pt-48 gap-8  max-w-6xl mx-auto'>
+                <p className='  text-start text-[2.4rem] font-medium lg:text-7xl text-black z-10 relative lg:pr-12'>
                     Building Your Vision with Precision
                 </p>
                 <p className=' text-start text-xl  text-black z-10 relative '>

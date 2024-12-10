@@ -4,10 +4,10 @@ import { PorductDialog } from './DialogProducts'
 export default function ProductList() {
     return (
         <section className='max-w-6xl mx-auto mt-10 px-4 '>
-            <p className='  text-center text-6xl text-black z-10 relative pr-12'>
+            <p className='  text-3xl  lg:text-center lg:text-6xl text-black z-10 relative pr-12'>
                 PROJECTS
             </p>
-            <p className=' text-center text-lg mt-3 text-black z-10 relative '>
+            <p className=' lg:text-center text-lg mt-3 text-black z-10 relative '>
                 Explore our Recent projects
             </p>
             <div className='  grid grid-cols-1 lg:grid-cols-6 gap-7 mt-3  mx-auto'>

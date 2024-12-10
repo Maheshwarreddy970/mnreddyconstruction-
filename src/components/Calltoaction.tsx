@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Calltoaction() {
     return (
-        <div className="relative overflow-hidden border-b w-full dark:border-gray-700 dark:bg-gray-900">
+        <div className="relative px-4 overflow-hidden border-b w-full dark:border-gray-700 dark:bg-gray-900">
 
             <div className=" py-8 sm:px-6 sm:py-20">
                 <div className="max-w-2xl mx-auto text-center">

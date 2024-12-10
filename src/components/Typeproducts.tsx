@@ -4,16 +4,16 @@ import Dust from "@/../public/construction.webp"
 
 export default function Typeproducts() {
     return (
-        <section className=' max-w-6xl mx-auto py-10  '>
+        <section className=' max-w-6xl mx-auto py-10 px-6 lg:px-4  '>
             <div className=' my-5'>
-                <p className='  text-center text-6xl  z-10 relative pr-12'>
+                <p className='  lg:text-center text-3xl lg:text-6xl  z-10 relative pr-12'>
                     Why Choose MNReddy Construction
                 </p>
-                <p className=' text-center text-lg mt-4   z-10 relative '>
+                <p className=' lg:text-center text-lg mt-4   z-10 relative '>
                     At MNReddy Construction, our commitment to excellence, unparalleled expertise, and unwavering dedication set us apart. Here's why you should choose us:
                 </p>
             </div>
-            <div className=' grid grid-cols-1 lg:grid-cols-3 gap-5'>
+            <div className=' grid grid-cols-1 lg:grid-cols-3 gap-7 lg:gap-5'>
                 <div className=' border bg-white rounded-3xl shadow-md'>
                     <div className='h-[25rem] border overflow-hidden shadow-lg  relative rounded-3xl '>
 

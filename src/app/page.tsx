@@ -17,7 +17,7 @@ export default function Home() {
       <TextTicker></TextTicker>
       <ProductList></ProductList>
       <div className=" w-full bg-[#e6f2f5] shadow-md p-10 rounded-3xl my-10  max-w-6xl mx-auto flex flex-col gap-9">
-        <p className='  text-start text-6xl text-black z-10 relative pr-12'>
+        <p className='  text-start text-3xl lg:text-6xl text-black z-10 relative lg:pr-12'>
           Why Choose MNReddy Construction
         </p>
         <p className=' text-start text-lg  text-black z-10 relative '>
