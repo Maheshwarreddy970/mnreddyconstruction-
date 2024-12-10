@@ -3,7 +3,7 @@ import { PorductDialog } from './DialogProducts'
 
 export default function ProductList() {
     return (
-        <section className='max-w-6xl mx-auto mt-10 px-4 '>
+        <section id='projects' className='max-w-6xl mx-auto mt-10 px-4 '>
             <p className='  text-3xl  lg:text-center lg:text-6xl text-black z-10 relative pr-12'>
                 PROJECTS
             </p>

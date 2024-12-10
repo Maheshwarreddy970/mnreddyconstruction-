@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <section className=' relative px-10 lg:px-4'>
+        <section id='home' className=' relative px-10 lg:px-4 lg:h-screen'>
             <div className=' h-full lg:h-screen w-full absolute top-0 left-0'>
                 <img src='/cover.avif' className=' h-full lg:h-screen w-full object-cover' alt='cover photo'></img>
             </div>

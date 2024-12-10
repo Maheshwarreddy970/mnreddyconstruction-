@@ -12,25 +12,13 @@ interface NavigationItem {
 
 // List of navigation items
 const navigationItems: NavigationItem[] = [
-    { name: "Home", href: "#" },
-    { name: "About", href: "#" },
-    { name: "Services", href: "#" },
-    { name: "Pricing", href: "#" }
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
+    { name: "Projects", href: "#projects" }
 ];
 
-// Variants for the navigation bar animation
-const navVariants = {
-    visible: { opacity: 1, y: 0 },
-    hidden: { opacity: 0, y: "-4rem" },
-    open: {
-        height: "100%",
-        transition: { duration: 0.5, ease: 'easeInOut', type: 'just', stiffness: 50 }
-    },
-    close: {
-        height: "auto",
-        transition: { duration: 0.5, ease: 'easeInOut', type: 'just', stiffness: 50 }
-    }
-};
+
 
 // NavigationBar component
 export default function NavigationBar() {
@@ -56,7 +44,7 @@ export default function NavigationBar() {
     return (
         <>
             <motion.nav
-                className={cn(" z-50 w-full  top-0 min-w-full mx-auto py-5 px-5 md:px-16  fixed start-0",hidden?"bg-black/10 backdrop-blur-2xl border-b":" bg-transparent")}
+                className={cn(" z-50 w-full  top-0 min-w-full mx-auto py-2 px-5 md:px-16  fixed start-0",hidden?"bg-black/10 backdrop-blur-2xl border-b":" bg-transparent")}
           
             >
                 <div className="flex justify-between w-full">

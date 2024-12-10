@@ -48,10 +48,10 @@ export function CardHoverEffect({
             />
           )}
         </AnimatePresence>
-        <div className="z-[1]  bg-black text-white shadow-lg rounded-xl p-4">
+        <div className="z-[1] h-full   bg-black text-white shadow-lg rounded-xl p-4">
           <CircleCheck className=" bg-white rounded-full text-black" />
-          <h1 className=" font-bold mt-12 text-lg  ">Proven Track Record</h1>
-          <p className="">We have a decade of successful projects.
+          <h1 className=" font-bold mt-12 text-lg  ">Expert Manpower </h1>
+          <p className="">Our team consists of highly skilled and experienced professionals, ensuring efficient and precise execution of every project.
           </p>
         </div>
       </div>
@@ -81,10 +81,10 @@ export function CardHoverEffect({
             />
           )}
         </AnimatePresence>
-        <div className="z-[1]  bg-black text-white shadow-lg rounded-xl p-4">
+        <div className="z-[1] h-full   bg-black text-white shadow-lg rounded-xl p-4">
           <CircleCheck className=" bg-white rounded-full text-black" />
-          <h1 className=" font-bold mt-12 text-lg  ">Quality Assurance</h1>
-          <p className="">Meticulous attention to detail and craftsmanship.
+          <h1 className=" font-bold mt-12 text-lg  ">Premium Materials</h1>
+          <p className="">We source high-quality, durable construction materials to deliver robust and lasting structures.
           </p>
         </div>
       </div>
@@ -116,8 +116,8 @@ export function CardHoverEffect({
         </AnimatePresence>
         <div className="z-[1] h-full  bg-black text-white shadow-lg rounded-xl p-4">
           <CircleCheck className=" bg-white rounded-full text-black" />
-          <h1 className=" font-bold mt-12 text-lg  ">Client-Centric Approach</h1>
-          <p className="">Effective, transparent, and collaborative
+          <h1 className=" font-bold mt-12 text-lg  ">Advanced Machinery</h1>
+          <p className="">Equipped with cutting-edge machinery, we guarantee seamless and timely completion of projects with optimal efficiency.
           </p>
         </div>
       </div>

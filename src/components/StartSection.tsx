@@ -3,7 +3,7 @@ import { AnimatedCounter } from "./ui/TextTicker"
 
 export const TextTicker = () => {
     return (
-        <div className=" bg-[#e6f2f5] px-6 lg:px-4">
+        <section id="about" className=" bg-[#e6f2f5] px-6 lg:px-4">
             <div className=' w-full  flex flex-col py-24 gap-8  max-w-6xl mx-auto'>
                 <p className='  lg:text-center text-4xl lg:text-6xl text-black z-10 relative lg:pr-12'>
                     Our Legacy of Excellence
@@ -40,6 +40,6 @@ export const TextTicker = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
