@@ -5,11 +5,15 @@ export const TextTicker = () => {
     return (
         <div className=" bg-[#e6f2f5] px-6 lg:px-4">
             <div className=' w-full  flex flex-col py-24 gap-8  max-w-6xl mx-auto'>
-                <p className='  lg:text-center text-3xl lg:text-6xl text-black z-10 relative lg:pr-12'>
+                <p className='  lg:text-center text-4xl lg:text-6xl text-black z-10 relative lg:pr-12'>
                     Our Legacy of Excellence
                 </p>
                 <p className=' lg:text-center text-lg  text-black z-10 relative '>
-                    Established 2012, MNReddy has been a leading force in the construction industry, specializing in commercial office building construction. Our commitment to quality and innovation sets us apart
+                    MN REDDY Construction  has been a trusted name in infrastructure and construction management for over two decades. Recognizing the challenges faced by construction companies—delays in material delivery, quality issues, and manpower shortages—MN Reddy took the initiative to bridge these gaps.
+                </p>
+                <p className=' lg:text-center text-lg  text-black z-10 relative '>
+                    With a mission to ensure that projects are completed on time with the highest standards of quality, MNRIL provides seamless solutions in construction materials, machinery, and manpower. Our unwavering commitment to timely delivery and strong client relationships has earned us a stellar reputation in the construction industry.
+
                 </p>
                 <div className=" grid grid-cols-2  lg:grid-cols-3 mx-auto gap-4 lg:gap-44 text-black">
                     <AnimatedCounter sign={"+"} subheading={"Projects Completed"} to={150} from={0} /> {/* use direction param for "up" or "down" */}

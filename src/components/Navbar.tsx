@@ -56,7 +56,7 @@ export default function NavigationBar() {
     return (
         <>
             <motion.nav
-                className={cn(" z-50 w-full  top-0 min-w-full mx-auto py-2 px-5 md:px-16  fixed start-0",hidden?"bg-black/10 backdrop-blur-2xl border-b":" bg-transparent")}
+                className={cn(" z-50 w-full  top-0 min-w-full mx-auto py-5 px-5 md:px-16  fixed start-0",hidden?"bg-black/10 backdrop-blur-2xl border-b":" bg-transparent")}
           
             >
                 <div className="flex justify-between w-full">

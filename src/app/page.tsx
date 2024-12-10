@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import NavigationBar from "@/components/Navbar";
 import ProductList from "@/components/ProductList";
 import { TextTicker } from "@/components/StartSection";
-import TestimonialCarousel from "@/components/Testimonial ";
 import Typeproducts from "@/components/Typeproducts";
 import { CardHoverEffect } from "@/components/ui/CardHoverEffect";
 
@@ -16,7 +15,7 @@ export default function Home() {
       <Hero></Hero>
       <TextTicker></TextTicker>
       <ProductList></ProductList>
-      <div className=" w-full bg-[#e6f2f5] shadow-md p-10 rounded-3xl my-10  max-w-6xl mx-auto flex flex-col gap-9">
+      <div className=" w-full  bg-[#e6f2f5] shadow-md p-10 rounded-3xl my-10  max-w-6xl mx-auto flex flex-col gap-9">
         <p className='  text-start text-3xl lg:text-6xl text-black z-10 relative lg:pr-12'>
           Why Choose MNReddy Construction
         </p>
