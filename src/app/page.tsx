@@ -1,8 +1,6 @@
 import Calltoaction from "@/components/Calltoaction";
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import LogoProof from "@/components/Logos";
-import NavigationBar from "@/components/Navbar";
 import ProductList from "@/components/ProductList";
 import { TextTicker } from "@/components/StartSection";
 import Typeproducts from "@/components/Typeproducts";
@@ -12,7 +10,6 @@ import { CardHoverEffect } from "@/components/ui/CardHoverEffect";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <NavigationBar></NavigationBar>
       <Hero></Hero>
       <TextTicker></TextTicker>
       <ProductList></ProductList>
@@ -33,7 +30,6 @@ export default function Home() {
         <CardHoverEffect></CardHoverEffect>
       </div>
       <Calltoaction></Calltoaction>
-      <Footer></Footer>
     </div>
   );
 }
