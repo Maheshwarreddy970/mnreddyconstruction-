@@ -48,9 +48,9 @@ export default function NavigationBar() {
           
             >
                 <div className="flex justify-between w-full">
-                    <div className="flex items-center gap-2">
+                    <a href="/"  className="">
                         <img src="/Picsart_24-12-10_11-35-05-391.png" className="w-12 h-12 font-semibold" alt="Logo" />
-                    </div>
+                    </a>
                     <div className="hidden md:flex items-center gap-9 text-base font-medium">
                         {navigationItems.map((item, index) => (
                             <a className=" opacity-80 text-md hover:opacity-100 hover:-translate-y-0.5 ease-in-out duration-150" key={index} href={item.href}>

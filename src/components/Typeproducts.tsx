@@ -15,22 +15,7 @@ export default function Typeproducts() {
                 </p>
             </div>
             <div className=' grid grid-cols-1 lg:grid-cols-3 gap-7 lg:gap-5'>
-                <div className=' border bg-white  rounded-3xl shadow-md'>
-                    <div className='h-[25rem] border overflow-hidden shadow-lg  relative rounded-3xl '>
-
-                        <img
-                            src='/12PM-WIRE-WED-27062019-SK.jpg'
-                            alt='dust'
-                            height={1000}
-                            width={1000}
-                            className='h-full  hover:scale-110 ease-in-out transition-all duration-300 object-cover rounded-3xl left-0 top-0 w-full'
-                        />
-                    </div>
-                    <div className='  bottom-0 z-30 p-7 '>
-                        <h1 className=' text-black font-bold text-xl'>Manpower Supply                        </h1>
-                        <p className=' text-black mt-3'>Empowering your projects with skilled and reliable professionals to bring your vision to life.</p>
-                    </div>
-                </div>
+          
                 <div className=' border bg-white  rounded-3xl shadow-md'>
                     <div className='h-[25rem] border overflow-hidden shadow-lg  relative rounded-3xl '>
                         <img
@@ -66,6 +51,22 @@ export default function Typeproducts() {
                     <GradientFillButton href='/machinerysupply'></GradientFillButton>
                     </div>
                     
+                </div>
+                <div className=' border bg-white  rounded-3xl shadow-md'>
+                    <div className='h-[25rem] border overflow-hidden shadow-lg  relative rounded-3xl '>
+
+                        <img
+                            src='/12PM-WIRE-WED-27062019-SK.jpg'
+                            alt='dust'
+                            height={1000}
+                            width={1000}
+                            className='h-full  hover:scale-110 ease-in-out transition-all duration-300 object-cover rounded-3xl left-0 top-0 w-full'
+                        />
+                    </div>
+                    <div className='  bottom-0 z-30 p-7 '>
+                        <h1 className=' text-black font-bold text-xl'>Manpower Supply                        </h1>
+                        <p className=' text-black mt-3'>Empowering your projects with skilled and reliable professionals to bring your vision to life.</p>
+                    </div>
                 </div>
             </div>
         </section>
