@@ -13,7 +13,7 @@ export default function Hero() {
                 Building Dreams with Timely Support
                 </p>
                 <p className=' text-start text-xl  text-black z-10 relative '>
-                20 Years of Excellence in Infrastructure and Construction Management
+                 of Excellence in Infrastructure and Construction Management
                 </p>
                 <div className='my-12'>
                     <a href="mailto:mnreddygroup@gmail.com" className="group shadow-lg relative font-bold inline-flex h-12 items-center justify-center overflow-hidden rounded-full border border-neutral-200 bg-white ">

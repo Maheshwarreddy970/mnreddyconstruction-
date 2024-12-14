@@ -23,18 +23,18 @@ export const TextTicker = () => {
                 <div className=" grid grid-cols-1  lg:grid-cols-3 gap-7 lg:gap-16">
                     <div className=" flex p-5 border shadow-lg border-black rounded-full gap-4 ">
                         <Check className=" bg-black rounded-full text-white p-1" />
-                        <p className="">
+                        <p className=" z-20 text-sm lg:text-lg ">
                             Always building quality industrial
                         </p>
                     </div>
                     <div className=" flex p-5 border shadow-lg border-black rounded-full gap-4 ">
                         <Check className=" bg-black rounded-full text-white p-1" />
-                        <p className="">
+                        <p className=" z-20 text-sm lg:text-lg ">
                             Best manufacturing service provider                        </p>
                     </div>
                     <div className=" flex p-5 border shadow-lg border-black rounded-full gap-4 ">
                         <Check className=" bg-black rounded-full text-white p-1" />
-                        <p className="">
+                        <p className=" z-20 text-sm lg:text- ">
                             Experienced trusted contractor
                         </p>
                     </div>
