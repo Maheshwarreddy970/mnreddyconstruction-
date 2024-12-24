@@ -8,8 +8,8 @@ export function cn(...inputs: ClassValue[]) {
 export function constructMetadata({
   title = "Mn Reddy Constructions - Top Builders in Hyderabad",
   description = "Mn Reddy Constructions specializes in delivering high-quality residential and commercial projects in Hyderabad. Read our reviews and explore our successful projects.",
-  image = "www.mnreddyconstructions.in/thumbnail.png",
-  icons = "/favicon.ico",
+  image = "https://www.mnreddyconstructions.in/thumbnail.png",
+  icons = "https://www.mnreddyconstructions.in/Picsart_24-12-10_11-35-05-391.png",
   noIndex = false,
 }: {
   title?: string;
