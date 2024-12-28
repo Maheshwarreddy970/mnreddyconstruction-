@@ -16,7 +16,7 @@ export default function Hero() {
                  of Excellence in Infrastructure and Construction Management
                 </p>
                 <div className='my-12'>
-                    <a href="mailto:mnreddygroup@gmail.com" className="group shadow-lg relative font-bold inline-flex h-12 items-center justify-center overflow-hidden rounded-full border border-neutral-200 bg-white ">
+                    <a href="tel:+16302786500" className="group shadow-lg relative font-bold inline-flex h-12 items-center justify-center overflow-hidden rounded-full border border-neutral-200 bg-white ">
                         <div className="inline-flex h-12 translate-y-0 items-center justify-center px-6 text-neutral-950 transition duration-500 group-hover:-translate-y-[150%]">
                             Learn More
                         </div>
