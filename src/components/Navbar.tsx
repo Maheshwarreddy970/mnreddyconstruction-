@@ -60,10 +60,10 @@ export default function NavigationBar() {
                     </div>
                     <div className=''>
                     <button className="group relative font-bold inline-flex h-12 items-center justify-center overflow-hidden rounded-full border border-black bg-transparent ">
-                        <a href="tel:+16302786500" className="inline-flex h-12 translate-y-0 items-center justify-center px-6 text-neutral-950 transition duration-500 group-hover:-translate-y-[150%]">
+                        <a href="tel:+916302786500" className="inline-flex h-12 translate-y-0 items-center justify-center px-6 text-neutral-950 transition duration-500 group-hover:-translate-y-[150%]">
                             Get in Touch
                         </a>
-                        <a href="tel:+16302786500" className="absolute inline-flex h-12 w-full translate-y-[100%] items-center justify-center text-neutral-50 transition duration-500 group-hover:translate-y-0">
+                        <a href="tel:+916302786500" className="absolute inline-flex h-12 w-full translate-y-[100%] items-center justify-center text-neutral-50 transition duration-500 group-hover:translate-y-0">
                             <span className="absolute h-full w-full translate-y-full skew-y-12 scale-y-0 bg-black transition duration-500 group-hover:translate-y-0 group-hover:scale-150"></span>
                             <span className="z-10">Get in Touch</span>
                         </a>
